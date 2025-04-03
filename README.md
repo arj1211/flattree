@@ -10,18 +10,18 @@ Small utility to flatten a directory into a `.txt` file and back again
 ## usage
 
 ### copy files
-    ```bash
-    python file_tool.py copy --root-dir /path/to/source --dest-dir /path/to/dest \
-    [--file-list file1 file2 ...] [--include "regex1" "regex2" ...] [--exclude "regex3" ...]
-    ```
+```bash
+python file_tool.py copy --root-dir /path/to/source --dest-dir /path/to/dest \
+[--file-list file1 file2 ...] [--include "regex1" "regex2" ...] [--exclude "regex3" ...]
+```
 ### concatenate files
-    ```bash
-    python file_tool.py concatenate --source-dir /path/to/directory --output-file /path/to/output.txt
-    ```
+```bash
+python file_tool.py concatenate --source-dir /path/to/directory --output-file /path/to/output.txt
+```
 ### reconstruct files
-    ```bash
-    python file_tool.py reconstruct --input-file /path/to/output.txt --dest-dir /path/to/reconstructed
-    ```
+```bash
+python file_tool.py reconstruct --input-file /path/to/output.txt --dest-dir /path/to/reconstructed
+```
 
 ## automated testing
 
